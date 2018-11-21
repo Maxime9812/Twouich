@@ -1,0 +1,252 @@
+#tout
+{
+	font-family: sans-serif;
+	margin: -10px;
+	display: flex;
+	flex-direction: row-reverse;
+}
+#top
+{
+	display: flex;
+	flex-direction: column;
+	margin-left: 10px;
+}
+#yan
+{
+	display: flex;
+	flex-direction: column;
+	margin-left: 20px;
+}
+#simplebar
+{
+	color: #CCC;
+	background-color: rgb(24,23,27);
+	padding-top:4px;
+	position: sticky;
+	height: 800px;
+	width:250px;
+	left: 0px;
+	top: 0px;
+}
+#menutext
+{
+	text-decoration: none;
+	text-align: center;
+	font-size: 15px;
+}
+.imgmenu
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin: 12px;
+	padding: 15px;
+	background-color: rgb(39,33,57);
+}
+#updark
+{
+	width: 199px;
+	height: 96.88px;
+}
+#bt
+{
+	display: flex;
+	justify-content: center;
+	font-size: 13px;
+}
+.boutv
+{
+	background-color: rgb(89,57,154);
+	border-radius: 7px;
+	padding:6px 17px 6px 17px;
+	color: rgb(195,195,195);
+	text-decoration: none;
+}
+.boutv:hover
+{
+	background-color: rgb(119,95,184);
+}
+#t1
+{
+	color: rgb(115,109,128);
+}
+#chaine
+{
+	margin-top: 50px;
+	margin-left: 15px;
+	margin-right: 15px;
+	border-bottom: solid rgb(36,34,38) 1px;
+
+}
+.icoch
+{
+	width: 34px;
+	height: 30px;
+	margin-left: 15px;
+	margin-right: 10px;
+	margin-top: 10px;
+	border-radius: 4px;
+}
+.boitb
+{
+	display: flex;
+	flex-direction: row;
+	text-decoration: none;
+	color: rgb(195,195,195);
+	font-size: 15px;
+}
+.boitb:hover
+{
+	background-color: rgb(49,47,54);
+}
+.boitb:hover .folow
+{
+	visibility: visible;
+	background-color: rgb(89,57,154);
+	position: absolute;
+	animation-name: example;
+    animation-duration: 0.3s;
+    animation-fill-mode: both;
+}
+.boita
+{
+	display: flex;
+	flex-direction: column;
+}
+#botnav
+{
+	display: flex;
+	flex-direction: column;
+}
+.jeuxjouer
+{
+	margin-top: -15px;
+	color: rgb(115,109,128);
+	font-size: 12px;
+}
+.nomchaine
+{
+	font-size: 13px;
+
+}
+.folow
+{
+	border-radius: 5px;
+	visibility: hidden;
+	padding: 5px;
+	position: absolute;
+	right: 0px;
+
+}
+.folow:hover
+{
+	color: rgb(119,95,184);
+}
+@keyframes example {
+    100%  { right:20px;}
+}
+
+
+
+
+.boutton {
+
+    background-color: #f9f9f9;
+    color: purple;
+    padding: 16px;
+    font-size: 16px;
+    border: none;a
+    cursor: pointer;
+    border-radius: 15px;
+    border : solid purple 2px;
+
+}
+
+.dropdown {
+
+    display: flex;
+    flex-direction: column;
+    width: 120px;
+
+}
+
+.contenu {
+
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 140px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 15px;
+}
+
+.contenu a {
+
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.contenu a:hover 
+{
+	background-color: #f1f1f1
+
+
+}
+
+.dropdown:hover .contenu {
+
+    display: block;
+}
+
+.blocjeu a
+{
+	text-decoration: none;
+	color: black;
+}
+.blocjeu a:hover
+{
+	color:rgb(89,57,154);
+}
+.a p
+{
+	margin-top: -10px;
+	margin-left: 10px;
+	color: black;
+	font-size: 18px;
+}
+.view
+{
+	margin-top: -16px;
+	margin-left: 10px;
+	font-size: 13px;
+	color: grey;
+}
+.iconejeu
+{
+	margin: 10px;
+	border-radius: 4px;
+	width: 180px;
+	height: 260px;
+}
+#jeu
+{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.a 
+{
+	flex-direction: wrap;
+	flex-direction: column;
+}
+#pub
+{
+
+    width: 552px;
+    height: 84px;
+    margin: auto; 
+    margin-bottom: 5px; 
+}
