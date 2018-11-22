@@ -9,48 +9,60 @@
 
 <body>
 <div id = "menub">
-	<div id = 	"twitch"><img id="twotch" src="https://www.freepnglogos.com/uploads/twitch-logo-png-6.png"></div>
-	<div id =	"parc">Parcourir</div>
-	<div id = 	"appdb" >Appli de bureau</div>
-	<div id = 	"test" >Essayer Prime</div>
-	<div id = 	"shop">Boutique</div>
+	<div id="rechetc">
+		<div class="twitch"><img id="twotch" src="https://www.freepnglogos.com/uploads/twitch-logo-png-6.png"></div>
+		<a class="rechetc">Parcourir</a>
+		<a class="rechetc">Appli de bureau</a>
+		<a class="rechetc">Essayer Prime</a>
+		<a class="rechetc">Boutique</a>
 
-	<div class = "menu" >&bull;&bull;&bull;
-		<ul class="submenu">
-			<li>A propos</li>
-			<li>Choix publicitaires</li>
-			<li>Annonceurs</li>
-			<li>Blog</li>
-			<li>Lignes de conduites de la communauté</li>
-			<li>Outil de gestion du consentement</li>
-			<li>Politique d'utilisation des cookies</li>
-			<li>Développeurs</li>
-			<li>Aide</li>
-			<li>Emplois</li>
-			<li>Langue</li>
-			<li>Musique</li>
-			<li>Partenaires</li>
-			<li>Presse</li>
-			<li>Politique de confidentialité</li>
-			<li>Sécurité</li>
-			<li>Conditions</li>
-			<li>Turbo</li>
-		</ul>
+		<div class = "menu" >&bull;&bull;&bull;
+			<span class="contenu">
+				<a>A propos</a>
+				<a>Choix publicitaires</a>
+				<a>Annonceurs</a>
+				<a>Blog</a>
+				<a>Lignes de conduites de la communauté</a>
+				<a>Outil de gestion du consentement</a>
+				<a>Politique d'utilisation des cookies</a>
+				<a>Développeurs</a>
+				<a>Aide</a>
+				<a>Emplois</a>
+				<a>Langue</a>
+				<a>Musique</a>
+				<a>Partenaires</a>
+				<a>Presse</a>
+				<a>Politique de confidentialité</a>
+				<a>Sécurité</a>
+				<a>Conditions</a>
+				<a>Turbo</a>
+			</span>
+		</div>
+
+		<div id ="recherche">
+			<div id="imglou">
+				<img id="loupe" src="loupe.png">
+			</div>
+			<form action="/search" id="searchthis" method="get">
+			<input id="search" name="q" type="text" placeholder="Rechercher"/>
+			</form>
+		</div>
 	</div>
-	<div id =	"recherche">
-		<form action="/search" id="searchthis" method="get">
-		<input id="search" name="q" type="text" placeholder="&#128269; Rechercher" />
-		</form></div>
+
+	<div id="mngauche">
+		<div id="bitscou">
+			<img id="couronne" src ="https://static-cdn.jtvnw.net/jtv_user_pictures/twitchprime-profile_image-0f7c0e9611ddb5d2-300x300.png">
+			<div><a id ="buybit">Acheter des bits</a></div>
+		</div>
 	
-	<div id = 	"crown"> <img id="couronne" src ="https://static-cdn.jtvnw.net/jtv_user_pictures/twitchprime-profile_image-0f7c0e9611ddb5d2-300x300.png"></div>
-	<div id = 	"buybit" >Acheter des bits</div>
-	<div id = 	"co" >Se connecter</div>
-	<div id = 	"insc" >S'inscrire</div>
+		<div id="compte">
+			<div class="btcompte"><a class="btcomptepad" id="btco1" href="#">Se connecter</a></div>
+			<div class="btcompte"><a class="btcomptepad" href="#">S'inscrire</a></div>
+		</div>
+	</div>
+	
+	
 </div>
-</body>
-
-
-
 	<div id="tout">
 		<div id="yan">
 			<div id="top">
@@ -265,6 +277,8 @@
 				</div>
 
 				<div class="boiboi">
+					<div class="w3-row">
+
 					<a class="boitb" href="#">
 						<img class="icoch" src="https://static-cdn.jtvnw.net/jtv_user_pictures/mclaugh-profile_image-d45de478aedbaffa-70x70.jpeg">
 						<span class="boita">

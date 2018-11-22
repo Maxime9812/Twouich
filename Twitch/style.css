@@ -2,22 +2,23 @@
 
 #tout
 {
-	font-family: sans-serif;
-	margin: -10px;
+	font-family: 'Roboto';
 	display: flex;
 	flex-direction: row-reverse;
+	background-color: rgb(24,23,27);
 }
 #top
 {
 	display: flex;
 	flex-direction: column;
 	margin-left: 10px;
+	padding: 30px 30px 0px 30px;
 }
 #yan
 {
 	display: flex;
 	flex-direction: column;
-	margin-left: 20px;
+	background-color: white;
 }
 #simplebar
 {
@@ -25,10 +26,10 @@
 	background-color: rgb(24,23,27);
 	padding-top:4px;
 	position: sticky;
-	height: 760px;
+	height: 100%;
 	width:250px;
 	left: 0px;
-	top: 51px;
+	top: 50px;
 }
 #menutext
 {
@@ -79,6 +80,10 @@
 	margin-right: 15px;
 	border-bottom: solid rgb(36,34,38) 1px;
 
+}
+.boiboi
+{
+	margin-bottom: -10px ;
 }
 .icoch
 {
@@ -160,7 +165,7 @@
     border: none;a
     cursor: pointer;
     border-radius: 15px;
-    border : solid purple 2px;
+    border : solid purple 1px;
 
 }
 
@@ -193,16 +198,18 @@
 
 .contenu a:hover 
 {
-	background-color: #f1f1f1
-
-
+	background-color: #f1f1f1;
+	border-radius :15px;
 }
 
 .dropdown:hover .contenu {
 
     display: block;
 }
-
+.blocjeu
+{
+	width: 196.16px;
+}
 .blocjeu a
 {
 	text-decoration: none;
@@ -237,7 +244,8 @@
 {
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-between;
+	padding: 0px 30px 30px 30px;
+	
 }
 .a 
 {
@@ -251,6 +259,7 @@
     height: 84px;
     margin: auto; 
     margin-bottom: 5px; 
+    margin-top: 30px;
 }
 
 
@@ -266,69 +275,42 @@ body {
 #menub{
 	display: flex;
 	background-color: rgb(74, 60, 123);
-	padding : 1px;
+	height: 50px;
 	position: sticky;
 	font-family: 'Roboto';
 	top: 0px;
-
+	font-style: bold;
+	flex-direction: row;
 }
-#twotch{
+
+#rechetc
+{
+	display: inline-flex;
+	color: white;
+}
+.rechetc
+{
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 16px;
+	color:rgb(195,195,195);
+	font-size: 14px;
+}
+.rechetc:hover 
+{
+	color: grey;
+	text-decoration : underline;
+}
+#twotch
+{
 	display: flex;
 	width: 30px;
 	height: 30px;
 	padding : 10px;
 	float: left;
 }
-#parc{
-	display: flex;
-	color: white;
-	margin : 2px;
-	margin-left: -4px;
-	padding : 15px;
-	font-size : 13px;
-	text-decoration: none;
-}
-#parc:hover{
-	text-decoration: underline;
-}
-
-#appdb{
-	display: flex;
-	margin-left: -6px;
-	color: white;
-	margin : 2px;
-	padding : 15px;
-	font-size : 13px;
-}
-#appdb:hover{
-	text-decoration : underline;
-}
-#test{
-	display: flex;
-	margin-left: -6px;
-	color: white;
-	margin : 2px;
-	padding : 15px;
-	font-size : 13px;
-}
-#test:hover{
-	text-decoration : underline;
-}
-#shop{
-	display: flex;
-	margin-left: -6px;
-	color : white;
-	margin : 2px;
-	padding : 15px;
-	font-size : 13px;
-}
-
-#shop:hover{
-	text-decoration : underline;
-}
-
-
-.menu{
+.menu
+{
 	display : block;
 	display: flex;
 	margin-left: -6px;
@@ -337,101 +319,106 @@ body {
 	padding : 15px;
 	font-size : 13px;
 }
-.menu:hover{
+.menu:hover
+{
 	text-decoration : underline;
 }
-
-.submenu{
-	display: none;
-	position: absolute;
-	background-color: white;
-}
-.menu:hover .submenu
+.menu:hover .contenu
 {
 	display: block;
 	color: black;
 }
 
-#search{
+#recherche
+{
 	display: flex;
-	margin-left: -6px;
-	color: white;
-	margin : 10px;
-	padding : 7px;
-	width : 200%;
-	font-size : 13px;
-	margin-left: 10px;
-
-	border-radius: 7px;
-	border : 1px;
+	flex-direction: row;
 }
-#loupe{
-	margin-left: -6px;
-	position : absolute;
-	left : 505px;
-	margin : 15px;
+#imglou
+{
+	height: 26px;
+	width: 26px;
+	margin-top: 12px;
+	padding-left: 5px;
+	background-color: white;
+	border-radius: 5px 0px 0px 5px;
 }
-#couronne{
-	display: flex;
-	margin-left: -6px;
+#loupe
+{
+	padding-top: 4px;
+	padding-left: 2px;
+	width: 16px;
+	height: 16px;
+	
+}
+#search
+{
+	background-color: white;
+	margin-top: 12px;
+	padding-right: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-radius: 0px 5px 5px 0px;
+	border: none;
+	width: 150%;
+}
+#couronne
+{
+	
 	width: 23px;
 	height: 23px;
-	padding : 15px;
-	position : absolute;
-	right : 390px;
 }
-#couronne:hover{
+#couronne:hover
+{
 	text-decoration : underline;
 }
-#buybit{
-	display: flex;
-	margin-left: -6px;
-	color: white;
-	margin : 12px;
-	padding : 5px;
-	font-size : 13px;
-	position: absolute;
-	right: 220px;
-	border-color: white;
-	border-radius: 7px;
-	background-color: rgb(74, 60, 123);
-	border-style: solid;
-	border-width: thin;
-	width : 10%;
+#buybit
+{
+	margin-left: 10px;
+	border: solid white 1px;
+	padding: 8px 8px 8px 8px;
+	border-radius: 4px;
 }
-#buybit:hover{
-	text-decoration : underline;
-}
-#co{
+#compte
+{
+
 	display: flex;
-	margin-left: -6px;
-	color: white;
-	margin : 7px;
-	padding : 12px;
-	border : 10px;
+	flex-direction: row;
+	
+}
+.btcompte
+{
+	margin-top: 15px;
+}
+.btcomptepad
+{
 	background-color: rgb(94, 70, 158);
-	font-size: 11px;
-	position : absolute;
-	right : 95px;
-	border-radius: 7px;
+	border-radius: 4px;
+	padding:6px;
+	text-decoration: none;
 }
-#co:hover{
-	text-decoration : underline;
+#btco1
+{
+	margin-left: 20px;
+	margin-right: 15px;
 }
-#insc{
-	display: flex;
-	margin-left: -6px;
+#mngauche a
+{
 	color: white;
-	margin : 7px;
-	padding : 12px;
-	border : 10px;
-	background-color: rgb(94, 70, 158);
-	font-size: 11px;
-	position : absolute;
-	right : 10px;
-	border-radius: 7px;
+	font-size: 13px;
 }
-#insc:hover{
-	text-decoration : underline;
-	opacity: 50%;
+.btcomptepad:hover
+{
+	background-color: rgb(119,95,184);
+}
+#bitscou
+{
+	margin-left: 200px;
+	margin-top: 15px;
+	display: inline-flex;
+}
+#mngauche
+{
+	display: flex;
+	flex-direction: row;
 }
